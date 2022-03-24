@@ -26,7 +26,7 @@
         "Inexpensive" => array("Toyota", "Nissan", "Ford")
     );
 
-    echo $carros["Expensive"][2];
+    echo $carros["Expensive"][0];
     echo "<br><br>";
 
     echo $carros["Inexpensive"][2];
