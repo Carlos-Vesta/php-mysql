@@ -16,8 +16,9 @@
     <?php
 
     // Exercise 01 - Personal information
+    echo "<strong><u>Exercise 01 - Personal information</u></strong>" . "<br>";
 
-    echo "<p> 01 - Create two variables (x = 300, y = 270) add them, and multiply it by 5.
+    echo "<p> Create two variables (x = 300, y = 270) add them, and multiply it by 5.
         Assign the output to a new variable z.</p>";
     
     $x = 300;
@@ -31,28 +32,6 @@
     echo "z = ({$x} + {$y}) * 5" . "<br>";
     echo "z = {$z}";
     echo "<br><br><br>";
-
-
-
-    // Exercise 02 - value added Tax
-
-    echo "<p> 02 - Create two variables <strong>price</strong> and <strong>vat</strong>. Create a new variable
-    <strong>totalPrice</strong>, and calculate de vat on the price, vat and total price.</p>";
-
-    $price = 250;
-    $vat = 17;
-    $vat_price = ($price + $vat) / 100;
-    $total_price = $price + $vat_price;
-
-
-    echo "Price = {$price}" . "<br>";
-    echo "Vat = {$vat}" . "<br>";
-    echo "Vat Price = {$vat_price}" . "<br><br>";
-
-    echo "Total Price = Price + Vat Price" . "<br>";
-    echo "Total Price = {$price} + {$vat_price}" . "<br>";
-    echo "Total Price = {$total_price}";
-
 
     ?>
 
