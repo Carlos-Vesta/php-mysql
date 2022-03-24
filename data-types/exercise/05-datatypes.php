@@ -20,11 +20,17 @@
     <p> Create any integer <strong><em>cmToInch</em></strong>, that converts a number of centimeters
         <strong>"cm"</strong> to inches <strong>"inch"</strong>
     </p>
+
     <p><em>Tip: 1 centimeter is equivalent to 0.39 inch.</em></p>
 
 
-    <?php
 
+    <?php
+    $cm = 5;
+    $inch = 0.39;
+    $cmToInch = ($cm * $inch) / 1;
+
+    echo "{$cm} cm is equivalent to {$cmToInch}";
 
     ?>
 
