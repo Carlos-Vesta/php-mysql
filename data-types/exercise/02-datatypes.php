@@ -13,13 +13,15 @@
     <br><br><br>
 
 
+    <h4><u>Exercise 02 - value added Tax</u></h4>
+
+    <!-- Exercise 02 - value added Tax -->
+    <p> Create two variables <strong>price</strong> and <strong>vat</strong>. Create a new variable
+        <strong>totalPrice</strong>, and calculate de vat on the price, vat and total price.
+    </p>
+
+
     <?php
-
-    // Exercise 02 - value added Tax
-    echo "<strong><u>Exercise 02 - value added Tax</u></strong>" . "<br>";
-
-    echo "<p> Create two variables <strong>price</strong> and <strong>vat</strong>. Create a new variable
-    <strong>totalPrice</strong>, and calculate de vat on the price, vat and total price.</p>";
 
     $price = 250;
     $vat = 17;

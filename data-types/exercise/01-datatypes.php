@@ -13,14 +13,15 @@
     <br><br><br>
 
 
+    <h4><u>Exercise 01 - Personal information</u></h4>
+
+    <!-- Exercise 01 - Personal information -->
+    <p> Create two variables (x = 300, y = 270) add them, and multiply it by 5.
+        Assign the output to a new variable z.</p>
+
+
     <?php
 
-    // Exercise 01 - Personal information
-    echo "<strong><u>Exercise 01 - Personal information</u></strong>" . "<br>";
-
-    echo "<p> Create two variables (x = 300, y = 270) add them, and multiply it by 5.
-        Assign the output to a new variable z.</p>";
-    
     $x = 300;
     $y = 270;
     $z = ($x + $y) * 5;
@@ -31,7 +32,7 @@
     
     echo "z = ({$x} + {$y}) * 5" . "<br>";
     echo "z = {$z}";
-    echo "<br><br><br>";
+
 
     ?>
 
