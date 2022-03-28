@@ -9,6 +9,9 @@
 </head>
 
 <body>
+    <h4>Arithmetic Operators</h4>
+    <br><br><br>
+
     <?php
         // - Adicao (+)
         // - Subtracao (-)
