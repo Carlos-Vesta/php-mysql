@@ -17,7 +17,8 @@
 
 
       echo "<strong> SWITCH </strong>" . "<br><br>";
-      echo " - Seleciona uma das varias instrucoes de codigo para executar.";
+      echo " - Seleciona uma das varias instrucoes de codigo para executar." . "<br> 
+      Podemos usar o SWITCH para comparar variavies com valores diferentes.";
       echo "<br><br><br>";
 
       
