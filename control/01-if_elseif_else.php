@@ -62,9 +62,9 @@
         echo "Idade = " . $idade3 . "<br><br>";
 
         if ($idade3 > 24 && $idade3 <= 40) {
-            echo "Tens permissao para entrar na festa, e nao sem restricoes." . "<br>";
+            echo "Tens permissao para entrar na festa, e nao tem restricoes." . "<br>";
 
-        } elseif ($idade3 >= 18 && $idade3 <= 25) {
+        } elseif ($idade3 >= 18 && $idade3 < 25) {
             echo "Tem permissao para entrar na festa, mas nao pode beber alcool e nem fumar.";
 
         } elseif ($idade3 >= 10 && $idade3 < 18) {
@@ -78,9 +78,6 @@
         }
 
         echo "<br><br><br><br>";
-
-        // *********************************************************************************
-
 
     ?>
 
